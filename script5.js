@@ -67,14 +67,14 @@ document.write("The cost of buying 5 movie tickets is: " + totalCost + " PKR" + 
 let celsius = 37;
 
 // b. Convert it to Fahrenheit & output “NNoC is NNoF”
-let fahrenheit = (celsius * 9/5) + 32;
+let fahrenheit = (celsius * 5/9) + 32;
 document.write(celsius + "°C is " + fahrenheit + "°F" + "<br>");
 
 // c. Now store a Fahrenheit temperature into a variable
 let fahrenheit2 = 98;
 
 // d. Convert it to Celsius & output “NNoF is NNoC”
-let celsius2 = (fahrenheit2 - 32) * 5/9;
+let celsius2 = (fahrenheit2 - 32) * 9/5;
 document.write(fahrenheit2 + "°F is " + celsius2 + "°C" + "<br>");
 
 
